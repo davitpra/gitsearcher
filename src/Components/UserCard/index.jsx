@@ -1,10 +1,10 @@
 import React from 'react'
 
-function UserCard(props) {
+function UserCard (props) {
   return (
-  <>
-  {props.children}
-  </>
+    <>
+      {props.children}
+    </>
   )
 }
 
