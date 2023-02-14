@@ -24,9 +24,10 @@ export default function Home () {
   const containerStyle = {
     background: 'whitesmoke',
     width: '80vw',
-    height: '500px',
+    height: 'auto',
     borderRadius: '16px',
     marginTop: '40px',
+    marginBottom: '40px',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center'
@@ -36,7 +37,7 @@ export default function Home () {
     <Container sx={containerStyle}>
       <Searcher setInputUser={setInputUser} />
       <UserCard maxWidth='sm'>
-        <Stack direction={{ xs: 'column', lg: 'row' }} spacing={4} sx={{ marginTop: '15px' }} alignItems='center'>
+        <Stack direction={{ xs: 'column', lg: 'row' }} spacing={4} sx={{ marginTop: '15px', marginBottom: '15px' }} alignItems='center'>
           <Card sx={{ maxWidth: '400px' }}>
             <CardMedia
               component='img'
